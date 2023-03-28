@@ -16,6 +16,7 @@
 .Lete{
     color: white;
 }
+
 .contmenu{
     display: flex;
     justify-content:flex-end;
@@ -25,6 +26,11 @@
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
+}
+.contmenu .m1.active{
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
 }
 
 nav{
@@ -206,6 +212,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .lescours{
     display: grid;
@@ -214,6 +221,6 @@ footer{
     gap: 15px;
     row-gap: 90px;
 }
-.linux, .maintenance{
+.admlinux, .maintenance, .adminsys, .it, .security, .linux{
     width: 250px;
 }
