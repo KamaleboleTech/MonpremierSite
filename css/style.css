@@ -16,18 +16,31 @@
 .Lete{
     color: white;
 }
+p{
+    
+    margin: 5px;
+    font-size: 15px;
+}
+h1{
+    margin: 3px;
+}
 
-.contmenu{
+h2, h3{
+    padding: 2px;
+    margin: 2px;
+    
+}
+.navigation{
     display: flex;
     justify-content:flex-end;
     margin-top: -20px;
 }
-.m1{
+.menu{
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
 }
-.contmenu .m1.active{
+.navigation .menu.active{
     font-weight: bold;
     border-bottom: 2px solid #ffffff;
     padding-bottom: 2px;
@@ -48,11 +61,6 @@ header{
     background-color: #ffffff;
 }
 
-p{
-    
-    margin: 5px;
-    font-size: 15px;
-}
 .btn{
     color: white;
     text-decoration: none;
@@ -62,16 +70,16 @@ p{
     background-color: #D72385;
 }
 
-.sec1{
+.section1index{
     height: 230px;
     background-color: #EEEEEE;
 
 }
 
-.logosec1{
+.logosection1index{
     width: 300px;
 }
-.sec1bis{
+.txtsection1index{
     display: inline-block;
     width: 435px;
     height: 200px;
@@ -79,7 +87,7 @@ p{
     margin-top: 30px;
 }
 
-.h2sec1{
+.txtsection1index h2{
     width: 425px;
     height: 40px;
     margin-left: 2px;
@@ -87,7 +95,7 @@ p{
     margin-top: 1px;
     
 }
-.psec1{
+.txtsection1index p{
     width: 425px;
     height: 142px;
     margin-left: 2px;
@@ -95,89 +103,46 @@ p{
     margin-top: 10px;
     margin-bottom: 1px;  
 }
-h1{
-    margin: 3px;
-}
 
-h2, h3{
-    padding: 2px;
-    margin: 2px;
-    
-}
-
-.passport{
-    width: 200px;
+.Listcours{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 10px;
 }
 
-.sec2{
-    height: 290px;
-    background-color: #ffffff;
+.Listcours .infoCour{
+    width: 33%;
+    margin-top: 10px;
 }
-footer{
-    background-color:#0F2243;
-    height: 100px;
-    margin-top: -10px;
-}
-.pfoot{
-    padding-top: 45px;
-    color: white;
-    
+.Listcours .infoCour img{
+    width: 100%;
 }
 
-.sec1comm{
-    display: inline-block;
-    margin-left: 420px;
-    margin-top: 15px;
-        
+.abonnement{
+    background-color: #eeeeee;
+    margin-bottom: -20px;
 }
-
-.logoIT{
-    width: 300px;
-    margin-top: 15px;
-    margin-left: 80px;
-}
-.h2seccomm{
+.abonnement h3{
     width: 390px;
     height: 70px;
     margin-left: 2px;
-    margin-top: -180px;
+    margin-top: -140px;
 }
-.pcomm{
+.abonnement p{
     width: 390px;
     height: 130px;
     margin-left: 2px;
     margin-top: 5px;
 }
-.sec1contact{
-    height: 450px;
-    background-color: #ffffff;
+.formulaireabonnement{
+    display: inline-block;
+    margin-left: 420px;
+    margin-top: 60px;
+    height: 100px;
+    width: 400px;     
 }
 
-.formp1{
-    width: 390px;
-    padding: 5px;
-}
-.formp2{
-    height: 260px;
-    margin-left: 400px;
-    margin-top: -345px;
-}
-.lbl1, .lbl2, .lbl4, .lbl5{
-    background-color:#d8d8d8;
-    height: 35px;
-    width: 350px;
-    border: none;
-    padding: 5px;
-    border-radius: 8px;
-}
-.lbl3{
-    background-color:#d8d8d8;
-    height: 100px;
-    width: 350px;
-    border: none;
-    border-radius: 8px;
-}
 .btncontact{
     background-color: #D72385;
     width: 300px;
@@ -186,26 +151,90 @@ footer{
     border: none;
     border-radius: 8px;
 }
-.abonnement{
-    height: 250px;
-    background-color: #eeeeee;
+.section1contact{
+    height: 450px;
+    background-color: #ffffff;
 }
-.h2secabon{
+.formpartie1{
+    width: 390px;
+    padding: 5px;
+}
+.formpartie2{
+    height: 260px;
+    margin-left: 400px;
+    margin-top: -345px;
+}
+.label1, .label2, .label4, .label5{
+    background-color:#d8d8d8;
+    height: 35px;
+    width: 350px;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+.label3{
+    background-color:#d8d8d8;
+    height: 100px;
+    width: 350px;
+    border: none;
+    border-radius: 8px;
+}
+
+.section1communaute{
+    height: 230px;
+    background-color: #EEEEEE;
+
+}
+.section1communaute .img{
+    display: inline-block;
+    margin-left: 420px;
+    margin-top: 15px;
+        
+}
+.logoIT{
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.txtsection1communaute h3{
     width: 390px;
     height: 70px;
     margin-left: 2px;
-    margin-top: -140px;
+    margin-top: -180px;
 }
-.formsecabon{
-    display: inline-block;
-    margin-left: 420px;
-    margin-top: 60px;
-    height: 100px;
-    width: 400px;     
+.txtsection1communaute p{
+    width: 390px;
+    height: 130px;
+    margin-left: 2px;
+    margin-top: 5px;
 }
-.Seccours{
-    height: 600px;
+.sectionmembres{
+    background-color: #ffffff;
 }
+
+.Listmembres{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.Listmembres .infomembre{
+    width: 24%;
+}
+.Listmembres .infomembre img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.Listmembres .infomembre h5{
+    text-align: center;
+}
+.infoCour a{
+    text-decoration: none;
+}
+
+/*
 .box{
     border-radius: 8px;
     background-color: #d8d8d8;
@@ -214,6 +243,7 @@ footer{
     justify-content: center;
     
 }
+
 .lescours{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -223,4 +253,15 @@ footer{
 }
 .admlinux, .maintenance, .adminsys, .it, .security, .linux{
     width: 250px;
+}
+*/
+footer{
+    background-color:#0F2243;
+    height: 100px;
+    margin-top: 10px;
+}
+.pfoot{
+    padding-top: 45px;
+    color: white;
+    
 }

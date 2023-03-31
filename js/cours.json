@@ -1,0 +1,41 @@
+[
+    {
+        "name" : "Windows Server 2020",
+        "time" : 45,
+        "Description" : "Administrer vos Serveurs Windows",
+        "image" :"images/adminsys.PNG"
+       
+    },
+
+    {
+        "name" : "Maintenance info",
+        "time" : 15,
+        "Description" : "Apprendre à resoudre les problemes de vos équipements",
+        "image" :"images/maintenance.png"
+    },
+    {
+        "name" : "Administration Linux",
+        "time" : 30,
+        "Description" : "Apprendre à Administrer Linux/Ubuntu-Redhat ",
+        "image" :"images/adminlinux.PNG" 
+    },
+    {
+        "name" : "Réseaux Informatiques",
+        "time" : 60,
+        "Description" : "Apprendre les notions de bases sur les Réseaux",
+        "image" :"images/reseaux.PNG"
+
+    },
+    {
+        "name" : "Securité informatique",
+        "time" : 90,
+        "Description" : "Apprendre les notions pour mieux securiser votre Réseau",
+        "image" :"images/security.PNG"
+    },
+    {
+        "name" : "Développement WEB Full Stack",
+        "time" : 45,
+        "Description" : "Apprendre les notions de base sur le GNU Linux",
+        "image" :"images/devweb.PNG"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "image": "images/Letech.jpg",
+        "name" : "Elie Kamalebo"
+    },
+    {
+        "image" :"images/Dorika.png",
+        "name" : "Dorika Kamalebo"
+    },
+    {
+        "image": "images/Fiston.png",
+        "name" : "Muka Tshienda"
+
+    },
+    {
+        "image" :"images/Bijou.png",
+        "name" : "Samba Carmel"
+    },
+    {
+        "image" :"images/Merveille.png",
+        "name" : "Merveille Safi"
+    },
+    {
+        "image": "images/Angy.png",
+        "name" : "Angy Kitoko"
+    },
+    {
+        "image": "images/Gloka.png",
+        "name" : "Pasteur Glody"
+
+    },
+    {
+        "image" :"images/Stella.png",
+        "name" : "Bismas Stella"
+    }
+]
