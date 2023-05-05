@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 800px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 .logo{
@@ -33,11 +33,20 @@ h2, h3{
 .navigation{
     display: flex;
     justify-content:flex-end;
-    margin-top: -20px;
+    margin-top: -30px;
 }
+    .menu-toggle{
+        margin-top: 1px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 30px;  
+        color: #ffffff;    
+    }
 .menu{
     color: #ffffff;
     text-decoration: none;
+    display: none;
     margin: 10px;
 }
 .navigation .menu.active{
@@ -53,7 +62,6 @@ nav{
     background-color: #0f2243
 } 
 header{
-    height: 230px;
     color: black;
     text-align: center;
     padding-top: 50px;
@@ -71,13 +79,43 @@ header{
 }
 
 .section1index{
-    height: 230px;
     background-color: #EEEEEE;
-
 }
 
-.logosection1index{
-    width: 300px;
+.al-position{
+    text-align: start;
+  /*  text-align: center;*/
+    margin-top: 20px;
+}
+.section1index .container{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 200px;
+   
+}
+
+@media screen and (min-width: 567px) {
+    .al-position{
+        text-align: center;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    .section1index .container{
+        flex-direction: row;
+}
+    img{
+        width: 400px;
+    }
+    .menu-toggle{
+        display: none;
+    }
+.menu{
+    display: flex;
+    
+}
 }
 .txtsection1index{
     display: inline-block;
@@ -179,34 +217,33 @@ header{
     border: none;
     border-radius: 8px;
 }
-
-.section1communaute{
-    height: 230px;
-    background-color: #EEEEEE;
-
-}
+/*
 .section1communaute .img{
     display: inline-block;
     margin-left: 420px;
     margin-top: 15px;
-        
 }
+*/  
+
 .logoIT{
-    width: 300px;
+    width: 200px;
     margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 80px;
 }
-.txtsection1communaute h3{
-    width: 390px;
-    height: 70px;
-    margin-left: 2px;
-    margin-top: -180px;
+
+.section1communaute{
+    /*height: 230px;*/
+    background-color: #EEEEEE;
 }
-.txtsection1communaute p{
-    width: 390px;
-    height: 130px;
-    margin-left: 2px;
-    margin-top: 5px;
+.img{
+    text-align: start;
+    
+}
+
+.txtsection1communaute {
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .sectionmembres{
     background-color: #ffffff;
@@ -216,45 +253,61 @@ header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 .Listmembres .infomembre{
-    width: 23%;
+    width: 100%;
 }
 .Listmembres .infomembre img{
-    width: 100%;
+    width: 30%;
     border-radius: 50%;
     margin-top: 20px;
 }
 
 .Listmembres .infomembre h5{
-    text-align: center;
+    text-align:left;
 }
 .infoCour a{
     text-decoration: none;
 }
 
-/*
-.box{
-    border-radius: 8px;
-    background-color: #d8d8d8;
+@media screen and (min-width: 567px) {
+    .img{
+        text-align:center;
+    }
+}
+@media screen and (min-width: 768px) {
+.section1communaute .container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+}
+.txtsection1communaute{
+    width: 500px;
+} 
+.img{
+    width: 500px;
+}
+.logoIT{
+    width: 340px;
+}
+.txtsection1communaute h3{
+    width: 500px;
+    height: 70px;
+}
+.txtsection1communaute p{
+    width: 500px;
+    height: 130px;
+}
+.Listmembres .infomembre{
+    width: 50%;
 }
 
-.lescours{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    gap: 15px;
-    row-gap: 90px;
 }
-.admlinux, .maintenance, .adminsys, .it, .security, .linux{
-    width: 250px;
+@media screen and (min-width: 992px) {
+    .Listmembres .infomembre{
+        width: 25%;
+        text-align: center;
+    }
 }
-*/
+
 footer{
     background-color:#0F2243;
     height: 100px;
